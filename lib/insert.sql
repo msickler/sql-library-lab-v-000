@@ -1,4 +1,4 @@
-INSERT INTO series (id, title, author_id, sub_genre_id) VALUES (
+INSERT INTO series (id, title, author_id, subgenre_id) VALUES (
   (3, "magic", 3, 6),
   (10, "love", 9, 4),
   (8, "money", 4, 5)
@@ -24,7 +24,7 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (
   (12, "sansa", "i'm not dumb", "princess", 6, 11),
 );
 
-INSERT INTO sub_genres (id, name) VALUES (
+INSERT INTO subgenres (id, name) VALUES (
   (8, "vampires"),
   (9, "suicide")
 );
