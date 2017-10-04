@@ -1,8 +1,7 @@
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES (
   (3, "magic", 3, 6),
-  (10, "love", 9, 4),
-  (8, "money", 4, 5)
-);
+  (10, "love", 9, 4)
+  );
 
 INSERT INTO books (id, title, year, series_id) VALUES (
   (3, "mama", 1993, 2),
@@ -15,6 +14,7 @@ INSERT INTO books (id, title, year, series_id) VALUES (
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (
   (5, "hermione", "shut up woman", "witch", 2, 1),
+  1, "Lady", "Woof Woof", "direwolf", 1, 1),
   (6, "yuki", "leave me alone", "alien", 3, 2),
   (7, "draco", "love me", "wizard", 4, 5),
   (8, "harry", "i'm a wizard", "muggle", 10, 11),
